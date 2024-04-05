@@ -20,7 +20,7 @@ public class PizzaRunner implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        
+
         Topping cheese = new Topping("Cheese", 100, 0.5);
         Topping tomato = new Topping("Tomato", 50, 0.3);
 
